@@ -1,0 +1,50 @@
+/*
+    This is the CSS page for my Boards and Index HTML Pages for Assignment 2.1
+*/
+
+body {
+    background-image: radial-gradient(beige, grey);
+    color: rgb(56, 21, 184);
+}
+
+nav {
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-right: 200px;
+}
+/* I changed the Width of the meme image so that it didnt take up too much space
+*/
+#memeImage {
+    margin-right: 200px;
+    width: 400px;
+}
+
+header {
+    text-align: center;
+}
+/* I have h2 centered here for the Index Page so that the header on my Meme page is centered
+*/
+h2 {
+    color: blueviolet;
+    text-align: center
+}
+
+h3 {
+    color: indigo;
+    text-align: left;
+}
+/* I have the text aligned to the left to differentiate the Index and Boards pages as well as Italics
+*/
+h4 {
+    color: rgb(35, 3, 43);
+    text-align: left;
+    font-style: italic;
+    font-size: larger;
+}
