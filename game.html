@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- This is Game.HTML for Assignment 2.2 for CSC102
+ My name is Gage Vaughan, and here is my "Game"  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- here is the Title for the HTML -->
+    <title> Assignment 2.2 </title>
+
+<!-- Next, I'll link my JavaScript and CSS code so that they can communicate to my HTML Page for my functions and Customizations -->
+    <script src="gamecode.js"></script>
+    <link href="game.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+<!-- In the Header, I welcome users and give intructions on how to start the game -->
+        <h1 id="heading"> Welcome to the Game Page </h1>
+        <br>
+        <h2> Press the Button to Shake the Magic 8 Ball </h2>
+        <h2> Ask your question, the Ball shall predict! </h2>
+        <br>
+        <br>
+ <!-- Here I will create the button -->
+        <button onclick="updateText();"> Shake the Magic 8! </button>
+    </header>
+    <br>
+<!-- I placed a magic 8 ball image to add some flare -->
+    <img id="eightBall" src="magic8ball.jpg">
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+/*
+This is the CSS file for my game for Assignment 2.2 for CSC102
+*/
+
+body{
+   background-color: grey;
+    text-align: center;
+}
+
+button{
+    border-color: black
+}
